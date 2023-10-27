@@ -1,0 +1,43 @@
+.card {
+    width: 250px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+}
+
+.card figure {
+    height: 250px;
+}
+
+.card figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.container-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1 1 150px;
+}
+
+.container-informacoes div:nth-child(1) {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .container-informacoes div small {
+    color: goldenrod;
+  }
+
+  .container-informacoes div:nth-child(2) {
+    text-align: right;
+    font-weight: 600;
+  }
